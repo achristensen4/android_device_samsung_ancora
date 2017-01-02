@@ -43,10 +43,10 @@ ro.sys.usb.default.config=mtp
 ro.vold.umsdirtyratio=20
 
 # Low memory device
-ro.config.low_ram=true
+ro.config.low_ram=false
 
 # Force high-end graphics in low ram mode
-persist.sys.force_highendgfx=true
+persist.sys.force_highendgfx=false
 
 # Reduce background apps limit to 16 on low-tier devices
 ro.sys.fw.bg_apps_limit=16
@@ -55,13 +55,13 @@ ro.sys.fw.bg_apps_limit=16
 ro.config.max_starting_bg=8
 
 # Force camera API version 1
-camera2.portability.force_api=1
+camera2.portability.force_api=0
 
 # Disable atlas services on low-ram targets
 config.disable_atlas=true
 
 # Enable smooth streaming
-mm.enable.smoothstreaming=true
+mm.enable.smoothstreaming=false
 
 # USB-OTG
 persist.sys.isUsbOtgEnabled=true
